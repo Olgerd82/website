@@ -3,24 +3,40 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Prosjekter – Galleri</title>
+  <title>Galleri – Prosjekter</title>
+
+  <!-- Swiper CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+  <!-- Твой основной стиль -->
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/gallery.css">
 </head>
 <body>
 
-  <div class="gallery-container">
-    <button class="back-button" onclick="window.location.href='index.html'">← Tilbake</button>
+  <a href="index.html" class="back-button">← Tilbake</a>
 
-    <div class="slider">
-      <img id="slider-image" src="img/bathroom1.jpg" alt="Galleri-bilde" />
+  <!-- Swiper Gallery -->
+  <div class="swiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide"><img src="img/bathroom1.jpg" alt="Bilde 1"></div>
+      <div class="swiper-slide"><img src="img/bathroom2.jpg" alt="Bilde 2"></div>
+      <div class="swiper-slide"><img src="img/bathroom3.jpg" alt="Bilde 3"></div>
+      <div class="swiper-slide"><img src="img/bathroom4.jpg" alt="Bilde 4"></div>
+      <div class="swiper-slide"><img src="img/bathroom5.jpg" alt="Bilde 5"></div>
     </div>
 
-    <div class="slider-buttons">
-      <button onclick="prevImage()">← Forrige</button>
-      <button onclick="nextImage()">Neste →</button>
-    </div>
+    <!-- Кнопки навигации -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+
+    <!-- Точки (пагинация) -->
+    <div class="swiper-pagination"></div>
   </div>
 
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+  <!-- Твой скрипт -->
   <script src="js/gallery.js"></script>
 </body>
 </html>
+

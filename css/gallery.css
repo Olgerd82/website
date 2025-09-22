@@ -1,0 +1,54 @@
+/* --- Gallery Page Styles for Swiper Gallery --- */
+
+body {
+  background-color: #fff;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+/* Кнопка "Назад" */
+.back-button {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  cursor: pointer;
+  border: none;
+  padding: 10px 20px;
+  background-color: #3a86ff;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: bold;
+  z-index: 999;
+}
+
+/* Swiper container */
+.swiper {
+  width: 100%;
+  max-width: 768px;
+  height: auto;
+  margin: 60px auto 40px; /* отступ сверху, чтобы кнопка не перекрывала */
+  padding-bottom: 40px;
+}
+
+/* Слайд с изображением */
+.swiper-slide img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Адаптация под мобильные */
+@media (max-width: 768px) {
+  .back-button {
+    font-size: 14px;
+    padding: 8px 16px;
+  }
+
+  .swiper {
+    margin-top: 80px;
+  }
+}
