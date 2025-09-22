@@ -1,4 +1,7 @@
 /* --- Gallery Page Styles for Swiper Gallery --- */
+* {
+  box-sizing: border-box;
+}
 
 body, html {
   margin: 0;
@@ -9,11 +12,19 @@ body, html {
   overflow-x: hidden;
 }
 
-/* Кнопка "Назад" */
+/* Контейнер шириной как на главной */
+.gallery-container {
+  width: 90%;
+  max-width: 852px;   /* как в .container на index.html */
+  margin: 0 auto;
+  position: relative; /* для кнопки "Назад" */
+}
+
+/* Кнопка "Назад" теперь внутри ограниченной ширины */
 .back-button {
-  position: fixed;         /* фиксируем, чтобы не съезжала при свайпе */
+  position: absolute;
   top: 20px;
-  left: 20px;
+  left: 0;             /* ← будет внутри .gallery-container */
   z-index: 1000;
   padding: 10px 20px;
   background-color: #3a86ff;
@@ -49,6 +60,27 @@ body, html {
   border-radius: 10px;
   object-fit: contain;
   box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+
+/* Ограничиваем стрелки по горизонтали */
+.swiper-button-next,
+.swiper-button-prev {
+  width: auto;
+  color: #000;
+  margin: 0 10px;
+  top: 50%;
+  position: absolute; 
+}
+
+.swiper-button-next {
+  right: 10px;
+  transform: translateY(-50%) translateX(50%);
+}
+
+.swiper-button-prev {
+  left: 10px;
+  transform: translateY(-50%) translateX(-50%);
 }
 
 /* Адаптация под мобильные */
