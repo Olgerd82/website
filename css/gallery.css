@@ -43,7 +43,7 @@ body, html {
 .swiper {
   width: 100%;
   max-width: 100%;
-  height: 100vh; /* ⬅️ Заполняем весь экран */
+  height: 80vh; /* ⬅️ Заполняем весь экран */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -61,7 +61,7 @@ body, html {
 
 .swiper-slide img {
   max-width: 90vw;
-  max-height: 80vh;
+  max-height: 75vh;
   border-radius: 10px;
   object-fit: contain;
   box-shadow: 0 4px 12px rgba(0,0,0,0.1);
@@ -97,8 +97,8 @@ body, html {
   }
 
   .swiper {
-    padding-top: 70px;
-    padding-bottom: 60px; 
+    padding-top: 60px;
+    padding-bottom: 40px; 
     width: 100%;
     max-width: 100%; /* или inherit */
   }
@@ -115,6 +115,6 @@ body, html {
   }
 
   .swiper {
-    padding-bottom: 70px;
+    padding-bottom: 40px;
   }
 }
