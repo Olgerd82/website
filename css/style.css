@@ -92,7 +92,7 @@ body {
 .services-box {
   background-color: #f5f7fa;
   padding: 20px;
-  border-radius: 8px;
+  border-radius: 10px;
 }
 
 .services-box h3 {
@@ -105,7 +105,7 @@ body {
 }
 
 .services-box li {
-  margin-bottom: 8px;
+  margin-bottom: 10px;
 }
 
 .cta-button {
@@ -114,7 +114,7 @@ body {
   background-color: #3a86ff;
   color: white;
   text-decoration: none;
-  border-radius: 6px;
+  border-radius: 10px;
   font-weight: bold;
 }
 
@@ -127,7 +127,7 @@ body {
 
 .main-img {
   width: 100%;
-  border-radius: 8px;
+  border-radius: 10px;
   margin-bottom: 15px;
 }
 
@@ -139,12 +139,12 @@ body {
 
 .gallery-grid img {
   width: 100%;
-  border-radius: 4px;
+  border-radius: 10px;
 }
 
 /* Contact */
 .contact {
-  margin-top: 40px;
+  margin-top: 15px;
   padding: 20px 0;
 }
 
