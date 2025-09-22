@@ -167,7 +167,7 @@ body {
   padding: 5px 0;
   margin-top: 15px;
   background-color: #f0f0f0;
-  font-size: 13x;
+  font-size: 12px;
 }
 
 .contact i {
@@ -235,7 +235,7 @@ body {
   }
 
  .services-box {
-    font-size: 11px; /* можно и меньше, например 13px */
+    font-size: 10px; /* можно и меньше, например 13px */
     padding: 10px;
   }
 
