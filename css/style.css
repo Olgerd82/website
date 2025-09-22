@@ -76,7 +76,7 @@ body {
 
 .hero-text {
   flex: 1 1 0%;
-  max-width: 50%;
+  max-width: 40%;
   min-width: 0;
 }
 
@@ -121,7 +121,7 @@ body {
 /* Gallery */
 .hero-gallery {
   flex: 1 1 0%;
-  max-width: 50%;
+  max-width: 60%;
   min-width: 0;
 }
 
