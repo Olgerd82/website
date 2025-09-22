@@ -182,6 +182,7 @@ body {
     width:95%;
     padding: 0 10px;
     max-width: none;
+    font-size: 12px;
   }
 
   .nav {
