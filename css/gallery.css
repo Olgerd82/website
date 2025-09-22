@@ -98,12 +98,23 @@ body, html {
 
   .swiper {
     padding-top: 70px;
+    padding-bottom: 60px; 
     width: 100%;
     max-width: 100%; /* или inherit */
   }
 
   .swiper-slide img {
     max-width: 95vw;
-    max-height: 75vh;
+    max-height: 65vh;
+  }
+}
+
+@media (max-width: 480px) {
+  .swiper-slide img {
+    max-height: 60vh;
+  }
+
+  .swiper {
+    padding-bottom: 70px;
   }
 }
