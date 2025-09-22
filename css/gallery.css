@@ -1,19 +1,20 @@
 /* --- Gallery Page Styles for Swiper Gallery --- */
 
-body {
-  background-color: #fff;
-  text-align: center;
-  font-family: Arial, sans-serif;
+body, html {
   margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+  overflow-x: hidden;
 }
 
 /* Кнопка "Назад" */
 .back-button {
-  position: absolute;
+  position: fixed;         /* фиксируем, чтобы не съезжала при свайпе */
   top: 20px;
   left: 20px;
-  cursor: pointer;
-  border: none;
+  z-index: 1000;
   padding: 10px 20px;
   background-color: #3a86ff;
   color: white;
@@ -21,24 +22,33 @@ body {
   border-radius: 6px;
   font-size: 16px;
   font-weight: bold;
-  z-index: 999;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
 }
 
-/* Swiper container */
+/* Контейнер Swiper */
 .swiper {
   width: 100%;
-  max-width: 768px;
-  height: auto;
-  margin: 60px auto 40px; /* отступ сверху, чтобы кнопка не перекрывала */
-  padding-bottom: 40px;
+  height: 100vh; /* ⬅️ Заполняем весь экран */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 60px 0 40px; /* отступ сверху под кнопку, снизу под пагинацию */
+  box-sizing: border-box;
 }
 
-/* Слайд с изображением */
+/* Изображения */
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .swiper-slide img {
-  width: 100%;
-  height: auto;
+  max-width: 90vw;
+  max-height: 80vh;
   border-radius: 10px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  object-fit: contain;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
 }
 
 /* Адаптация под мобильные */
@@ -49,6 +59,11 @@ body {
   }
 
   .swiper {
-    margin-top: 80px;
+    padding-top: 70px;
+  }
+
+  .swiper-slide img {
+    max-width: 95vw;
+    max-height: 75vh;
   }
 }
