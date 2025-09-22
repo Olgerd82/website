@@ -186,7 +186,7 @@ body {
     width:95%;
     padding: 0 10px;
     max-width: none;
-    font-size: 11px;
+    font-size: 10px;
   }
 
   .nav {
@@ -200,16 +200,16 @@ body {
   }
   
   .hero-text h2 {
-    font-size: 13px;
+    font-size: 12px;
   }
 
   .hero-text p {
-    font-size: 11px;
+    font-size: 10px;
   }
 
   .cta-button {
-    font-size: 13px;
-    padding: 10px 13px;
+    font-size: 12px;
+    padding: 10px 12px;
     width: 100%;
     text-align: center;
     box-sizing: border-box;
@@ -240,11 +240,11 @@ body {
   }
 
   .services-box h3 {
-    font-size: 13px;
+    font-size: 12px;
   }
 
   .services-box li {
-    font-size: 11px;
+    font-size: 10px;
     
   }
 }
