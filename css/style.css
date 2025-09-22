@@ -10,7 +10,7 @@ body {
   font-family: 'Rubik', sans-serif;
   background-color: #fff;
   color: #222;
-  line-height: 1.6;
+  line-height: 1.5;
 }
 
 .container {
@@ -42,7 +42,7 @@ body {
   align-items: center;
   gap: 10px;
   font-weight: bold;
-  font-size: 24px;
+  font-size: 22px;
   white-space: nowrap;
 }
 
@@ -86,7 +86,7 @@ body {
 }
 
 .hero-text h2 {
-  font-size: 28px;
+  font-size: 22px;
   margin-bottom: 10px;
 }
 
@@ -164,17 +164,17 @@ body {
 /* Footer */
 .footer {
   text-align: center;
-  padding: 15px 0;
-  margin-top: 30px;
+  padding: 5px 0;
+  margin-top: 15px;
   background-color: #f0f0f0;
-  font-size: 14px;
+  font-size: 13x;
 }
 
 .contact i {
   margin-top: 0px;
   margin-right: 10px;
   color: #000; /* Чёрный цвет */
-  font-size: 12px;
+  font-size: 11px;
   width: 20px;
   text-align: center;
 }
@@ -186,7 +186,7 @@ body {
     width:95%;
     padding: 0 10px;
     max-width: none;
-    font-size: 12px;
+    font-size: 11px;
   }
 
   .nav {
@@ -200,16 +200,16 @@ body {
   }
   
   .hero-text h2 {
-    font-size: 14px;
+    font-size: 13px;
   }
 
   .hero-text p {
-    font-size: 12px;
+    font-size: 11px;
   }
 
   .cta-button {
-    font-size: 14px;
-    padding: 10px 14px;
+    font-size: 13px;
+    padding: 10px 13px;
     width: 100%;
     text-align: center;
     box-sizing: border-box;
@@ -235,16 +235,16 @@ body {
   }
 
  .services-box {
-    font-size: 12px; /* можно и меньше, например 13px */
+    font-size: 11px; /* можно и меньше, например 13px */
     padding: 10px;
   }
 
   .services-box h3 {
-    font-size: 14px;
+    font-size: 13px;
   }
 
   .services-box li {
-    font-size: 12px;
+    font-size: 11px;
     
   }
 }
