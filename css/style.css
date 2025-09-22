@@ -178,6 +178,43 @@ body {
   width: 20px;
   text-align: center;
 }
+
+/* GALLERY */
+.gallery-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.slider img {
+  max-width: 90%;
+  max-height: 80vh;
+  border-radius: 10px;
+}
+
+.slider-buttons {
+  margin-top: 20px;
+}
+
+.slider-buttons button,
+.back-button {
+  padding: 10px 20px;
+  margin: 5px;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  background-color: #3a86ff;
+  color: white;
+  cursor: pointer;
+}
+
+.back-button {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+
+
 /* Responsive */
 @media (max-width: 768px) {
   .container {

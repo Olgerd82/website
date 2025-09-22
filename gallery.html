@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Prosjekter – Galleri</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div class="gallery-container">
+    <button class="back-button" onclick="window.location.href='index.html'">← Tilbake</button>
+
+    <div class="slider">
+      <img id="slider-image" src="img/bathroom1.jpg" alt="Galleri-bilde" />
+    </div>
+
+    <div class="slider-buttons">
+      <button onclick="prevImage()">← Forrige</button>
+      <button onclick="nextImage()">Neste →</button>
+    </div>
+  </div>
+
+  <script src="js/gallery.js"></script>
+</body>
+</html>
