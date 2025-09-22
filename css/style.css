@@ -179,8 +179,8 @@ body {
 /* Responsive */
 @media (max-width: 768px) {
   .container {
-    width: 100%;
-    padding: 0 15px;
+    width:95%;
+    padding: 0 10px;
     max-width: none;
   }
 
@@ -191,6 +191,7 @@ body {
 
   .hero {
     /*flex-direction: column;*/
+     gap: 10px;
   }
   
   .hero-text h2 {
@@ -221,6 +222,12 @@ body {
   .logo-img {
     height: 80px; /* чуть меньше на мобильных */
   }
+
+  img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
 }
 
 
