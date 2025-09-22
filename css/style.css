@@ -5,7 +5,9 @@
 }
 
 body {
-  font-family: "Arial", sans-serif;
+  /* font-family: "Arial", sans-serif; */
+  /* font-family: 'Nunito', sans-serif; */
+  font-family: 'Rubik', sans-serif;
   background-color: #fff;
   color: #222;
   line-height: 1.6;
@@ -78,7 +80,7 @@ body {
 
 .hero-text {
   flex: 1 1 0%;
-  max-width: 50%;
+  max-width: 55%;
   min-width: 0;
   scroll-snap-align: start;
 }
@@ -124,7 +126,7 @@ body {
 /* Gallery */
 .hero-gallery {
   flex: 1 1 0%;
-  max-width: 50%;
+  max-width: 45%;
   min-width: 0;
   scroll-snap-align: start;
 }
@@ -196,7 +198,7 @@ body {
   }
   
   .hero-text h2 {
-    font-size: 16px;
+    font-size: 14px;
   }
 
   .hero-text p {
@@ -225,13 +227,14 @@ body {
   }
 
   img {
-  max-width: 100%;
-  height: auto;
-  display: block;
+    max-width: 100%;
+    height: auto;
+    display: block;
   }
 
  .services-box {
     font-size: 12px; /* можно и меньше, например 13px */
+    padding: 10px;
   }
 
   .services-box h3 {
@@ -240,6 +243,7 @@ body {
 
   .services-box li {
     font-size: 12px;
+    
   }
 }
 
