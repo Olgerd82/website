@@ -12,31 +12,32 @@
   <link rel="stylesheet" href="css/gallery.css">
 </head>
 <body>
+    <div class="gallery-container"></div>
+        <a href="index.html" class="back-button">← Tilbake</a>
 
-  <a href="index.html" class="back-button">← Tilbake</a>
+        <!-- Swiper Gallery -->
+        <div class="swiper">
+            <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="img/bathroom1.jpg" alt="Bilde 1"></div>
+            <div class="swiper-slide"><img src="img/bathroom2.jpg" alt="Bilde 2"></div>
+            <div class="swiper-slide"><img src="img/bathroom3.jpg" alt="Bilde 3"></div>
+            <div class="swiper-slide"><img src="img/bathroom4.jpg" alt="Bilde 4"></div>
+            <div class="swiper-slide"><img src="img/bathroom5.jpg" alt="Bilde 5"></div>
+            </div>
 
-  <!-- Swiper Gallery -->
-  <div class="swiper">
-    <div class="swiper-wrapper">
-      <div class="swiper-slide"><img src="img/bathroom1.jpg" alt="Bilde 1"></div>
-      <div class="swiper-slide"><img src="img/bathroom2.jpg" alt="Bilde 2"></div>
-      <div class="swiper-slide"><img src="img/bathroom3.jpg" alt="Bilde 3"></div>
-      <div class="swiper-slide"><img src="img/bathroom4.jpg" alt="Bilde 4"></div>
-      <div class="swiper-slide"><img src="img/bathroom5.jpg" alt="Bilde 5"></div>
+            <!-- Кнопки навигации -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+
+            <!-- Точки (пагинация) -->
+            <div class="swiper-pagination"></div>
+        </div>
+
+        <!-- Swiper JS -->
+        <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+        <!-- Твой скрипт -->
+        <script src="js/gallery.js"></script>
     </div>
-
-    <!-- Кнопки навигации -->
-    <div class="swiper-button-prev"></div>
-    <div class="swiper-button-next"></div>
-
-    <!-- Точки (пагинация) -->
-    <div class="swiper-pagination"></div>
-  </div>
-
-  <!-- Swiper JS -->
-  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
-  <!-- Твой скрипт -->
-  <script src="js/gallery.js"></script>
 </body>
 </html>
 
