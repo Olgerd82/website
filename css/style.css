@@ -71,13 +71,13 @@ body {
   flex-wrap: nowrap;
   overflow-x: auto;      /* ✅ если не влезает — скролл */
   margin-top: 30px;
-  gap: 30px;
+  gap: 20px;
 }
 
 .hero-text {
-  flex: 1 1 auto;
-  max-width: 350px;
-  min-width: 300px;
+  flex: 1 1 0%;
+  max-width: 50%;
+  min-width: 0;
 }
 
 .hero-text h2 {
@@ -120,9 +120,9 @@ body {
 
 /* Gallery */
 .hero-gallery {
-  flex: 1 1 auto;
-  max-width: 470px;
-  min-width: 300px;
+  flex: 1 1 0%;
+  max-width: 50%;
+  min-width: 0;
 }
 
 .main-img {
@@ -182,14 +182,31 @@ body {
   .hero {
     /*flex-direction: column;*/
   }
+  
+  .hero-text h2 {
+    font-size: 22px;
+  }
+
+  .hero-text p {
+    font-size: 14px;
+  }
+
+  .cta-button {
+    font-size: 14px;
+    padding: 10px 14px;
+  }
 
   .menu {
     /*flex-direction: column;*/
     gap: 10px;
   }
 
+  .gallery-grid {
+    gap: 6px;
+  }
+
   .logo-img {
-    height: 100px; /* чуть меньше на мобильных */
+    height: 80px; /* чуть меньше на мобильных */
   }
 }
 
