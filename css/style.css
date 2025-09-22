@@ -227,7 +227,19 @@ body {
   max-width: 100%;
   height: auto;
   display: block;
-}
+  }
+
+ .services-box {
+    font-size: 12px; /* можно и меньше, например 13px */
+  }
+
+  .services-box h3 {
+    font-size: 14px;
+  }
+
+  .services-box li {
+    font-size: 12px;
+  }
 }
 
 
