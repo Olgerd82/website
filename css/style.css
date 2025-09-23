@@ -203,7 +203,7 @@ body {
   .nav {
     /*flex-direction: column;*/
     /* align-items: flex-start; */
-    font-size: 13px;
+    font-size: 12px;
   }
 
   .hero {
@@ -221,7 +221,15 @@ body {
 
   .cta-button {
     font-size: 12px;
-    padding: 10px 12px;
+    padding: 8px 8px;
+    width: 100%;
+    text-align: center;
+    box-sizing: border-box;
+  }
+
+   .menu-button {
+    font-size: 12px;
+    padding: 10px 10px;
     width: 100%;
     text-align: center;
     box-sizing: border-box;
