@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Galleri – Videoer</title>
+
+  <!-- Swiper CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/gallery.css">
+
+  <style>
+    .swiper-slide {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    video {
+      width: 100%;
+      height: auto;
+      max-height: 80vh;
+      border-radius: 10px;
+      background: #000;
+    }
+  </style>
+</head>
+<body>
+  <div class="gallery-container">
+    <a href="index.html" class="back-button">← Tilbake</a>
+
+    <div class="swiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <video autoplay muted controls loop playsinline>
+            <source src="video/video1.mp4" type="video/mp4">
+            Nettleseren din støtter ikke video.
+          </video>
+        </div>
+        <div class="swiper-slide">
+          <video autoplay muted controls loop playsinline>
+            <source src="video/video2.mp4" type="video/mp4">
+            Nettleseren din støtter ikke video.
+          </video>
+        </div>
+        <div class="swiper-slide">
+          <video autoplay muted controls loop playsinline>
+            <source src="video/video3.mp4" type="video/mp4">
+            Nettleseren din støtter ikke video.
+          </video>
+        </div>
+        <!-- Добавь больше видео при необходимости -->
+      </div>
+
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-pagination"></div>
+    </div>
+  </div>
+
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+  <!-- Видео-галерея JS -->
+  <script src="js/video-gallery.js"></script>
+</body>
+</html>
