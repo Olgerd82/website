@@ -184,7 +184,7 @@ body {
 @media (max-width: 768px) {
   .container {
     width:95%;
-    padding: 0 5px;
+    padding: 0 0px;
     max-width: none;
     font-size: 11px;
   }
@@ -237,7 +237,7 @@ body {
 
  .services-box {
     font-size: 11px; 
-    padding: 10px;
+    padding: 5px;
   }
 
   .services-box h3 {
