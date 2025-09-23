@@ -67,24 +67,6 @@
   <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap" rel="stylesheet">
 
 </head>
-<script>
-  window.addEventListener('load', function () {
-    const hint = document.querySelector('.tap-hint');
-
-    if (!hint) return;
-
-    if (window.innerWidth <= 768) {
-      setTimeout(() => {
-        hint.style.opacity = '1';
-        hint.style.animation = 'tapAnimation 1.5s ease-in-out 2';
-
-        setTimeout(() => {
-          hint.style.opacity = '0';
-        }, 3000);
-      }, 3000);
-    }
-  });
-</script>
 <body>
   <header class="header">
   <div class="container">
