@@ -48,23 +48,7 @@
     "https://www.facebook.com/profile.php?id=61580984529732"
   ]
 }
-<!-- Tap animation -->
-  window.addEventListener('load', function () {
-    const hint = document.querySelector('.tap-hint');
-
-    if (window.innerWidth <= 768) {
-      setTimeout(() => {
-        hint.style.opacity = '1';
-
-        setTimeout(() => {
-          hint.style.opacity = '0';
-        }, 3000); // исчезает через 3 секунды
-      }, 3000); // появляется через 3 секунды после загрузки
-    }
-  });
-
 </script>
-
   <!-- Favicon -->
   <link rel="icon" type="image/png" href="/favicon/favicon-96x96.png" sizes="96x96" />
   <link rel="icon" type="image/svg+xml" href="/favicon/favicon.svg" />
@@ -83,7 +67,21 @@
   <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap" rel="stylesheet">
 
 </head>
+<script>
+    window.addEventListener('load', function () {
+      const hint = document.querySelector('.tap-hint');
 
+      if (window.innerWidth <= 768) {
+        setTimeout(() => {
+          hint.style.opacity = '1';
+
+          setTimeout(() => {
+            hint.style.opacity = '0';
+          }, 3000);
+        }, 3000);
+      }
+    });
+  </script>
 <body>
   <header class="header">
   <div class="container">
