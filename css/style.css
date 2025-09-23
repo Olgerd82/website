@@ -205,7 +205,7 @@ body {
   }
 
   .hero-text p {
-    font-size: 10px;
+    font-size: 11px;
   }
 
   .cta-button {
@@ -236,7 +236,7 @@ body {
   }
 
  .services-box {
-    font-size: 10px; /* можно и меньше, например 13px */
+    font-size: 11px; 
     padding: 10px;
   }
 
@@ -245,7 +245,7 @@ body {
   }
 
   .services-box li {
-    font-size: 10px;
+    font-size: 11px;
     
   }
 }
